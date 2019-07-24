@@ -4,7 +4,7 @@
 ```python
 import gmaps
 import pandas as pd
-gmaps.configure(api_key='AIzaSyB91zgXOWGWA4xM6oZ2FgiFvu9E_GuSiIk')
+gmaps.configure(api_key='<API_KEY>')
 homeless_df = pd.read_csv("homeless.csv")
 homeless_df = homeless_df[homeless_df['LATITUDE'].notnull()]
 homeless_df = homeless_df[homeless_df['LONGITUDE'].notnull()]
